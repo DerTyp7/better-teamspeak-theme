@@ -1,22 +1,20 @@
-:root{
-  --tsv-bg: #1f2531 !important;
-  --tsv-bg-header: #1a1f29 !important;
-  --tsv-border-header: #1d2433 !important;
-  --tsv-shaded-bg: #1a1f29 !important;
+:root {
+	--tsv-bg: #1f2531 !important;
+	--tsv-bg-header: #1a1f29 !important;
+	--tsv-border-header: #1d2433 !important;
+	--tsv-shaded-bg: #1a1f29 !important;
 }
 
 .tsv-header {
-  background: none !important;
-  border-bottom: 2px solid var(--tsv-border-header) !important;
-  
+	background: none !important;
+	border-bottom: 2px solid var(--tsv-border-header) !important;
 
 	&::before {
 		background: var(--tsv-bg-header) !important;
-    -webkit-mask-image: none !important;
-    mask-image: none !important;
+		-webkit-mask-image: none !important;
+		mask-image: none !important;
 	}
 
-  
 	.tsv-search-bar {
 		.tsv-search-input {
 			&::placeholder {
@@ -26,34 +24,63 @@
 		}
 	}
 
-  .tsv-header-bar-below-tools{
-    background: none !important;
+	.tsv-header-bar-below-tools {
+		background: none !important;
 
-    &::before {
-      background: none !important;
-    }
-  }
+		&::before {
+			background: none !important;
+		}
+	}
 
-  .tsv-central-toolbar-buttons{
-    &::before {
-      background: none !important;
-    }
-  }
+	.tsv-central-toolbar-buttons {
+		&::before {
+			background: none !important;
+		}
+	}
 }
 
 .tsv-header-floating {
-  &::before {
-  opacity: 1 !important;}
+	&::before {
+		opacity: 1 !important;
+	}
 }
-
 
 .tsv-floating-background {
-  backdrop-filter: none !important;
+	backdrop-filter: none !important;
 }
 
-.tsv-activity-main{
-  .tsv-header{
-    border-left: 2px solid var(--tsv-border-header) !important;
-    border-right: 2px solid var(--tsv-border-header) !important;
-  }
+.tsv-activity-main {
+	.tsv-header {
+		border-left: 2px solid var(--tsv-border-header) !important;
+		border-right: 2px solid var(--tsv-border-header) !important;
+	}
+}
+
+.tsv-icon-contact-status-favorite,
+.tsv-icon-chat-room-status-favorite {
+	z-index: 10;
+
+	path {
+		d: path(
+			"M7,0.5 L8.15,3.9 H11.9 L9.35,6.2 L10.5,9.55 L7,7.65 L3.5,9.55 L4.65,6.2 L2.1,3.9 H5.85 Z"
+		) !important;
+		fill: #d4ca37 !important;
+		z-index: 9999 !important; // Set a high z-index value
+	}
+}
+
+.tsv-item-active-indicator {
+	border-right-color: transparent !important;
+	right: -2px !important;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 3px !important;
+		height: 15px !important;
+		background-color: var(--tsv-tint) !important;
+		top: -8px !important;
+	}
+	&::after {
+		display: none !important;
+	}
 }
