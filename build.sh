@@ -1,6 +1,4 @@
 #!/bin/sh
-npm install node-sass --save-dev
-
 # Remove old dist folder
 rm -rf ./dist
 

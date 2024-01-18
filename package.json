@@ -1,41 +1,31 @@
 {
-  "name": "betterteamspeaktheme",
-  "description": "Better TeamSpeak5 Theme",
-  "version": "1.0.0",
-  "identifier": "de.dertyp.betterteamspeaktheme",
-  "engines": {
-    "teamspeak": 1
-  },
-  "homepage": "https://community.teamspeak.com",
-  "docsUrl": "https://community.teamspeak.com",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DerTyp7/better-teamspeak-theme.git"
-  },
-  "image": "logo.png",
-  "license": "MIT",
-  "author": "dertyp7 <dertyp7@tealfire.de> (https://tealfire.de)",
-  "community": {
-    "server": "tealfire.de"
-  },
-  "content": {
-    "themes": [
-      {
-        "name": "BetterTeamSpeakTheme",
-        "source": "BetterTeamSpeakTheme.css",
-        "apiVersion": 1,
-        "image": "logo.png"
-      }
-    ]
-  },
-  "bugs": {
-    "url": "https://github.com/DerTyp7/better-teamspeak-theme/issues"
-  },
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "devDependencies": {
-    "node-sass": "^9.0.0"
-  }
+	"name": "betterteamspeaktheme",
+	"description": "Better TeamSpeak5 Theme",
+	"version": "1.0.0",
+	"identifier": "de.dertyp.betterteamspeaktheme",
+	"engines": {
+		"teamspeak": 1
+	},
+	"homepage": "https://community.teamspeak.com",
+	"docsUrl": "https://community.teamspeak.com",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DerTyp7/better-teamspeak-theme"
+	},
+	"image": "logo.png",
+	"license": "MIT",
+	"author": "dertyp7 <dertyp7@tealfire.de> (https://tealfire.de)",
+	"community": {
+		"server": "tealfire.de"
+	},
+	"content": {
+		"themes": [
+			{
+				"name": "BetterTeamSpeakTheme",
+				"source": "BetterTeamSpeakTheme.css",
+				"apiVersion": 1,
+				"image": "logo.png"
+			}
+		]
+	}
 }
