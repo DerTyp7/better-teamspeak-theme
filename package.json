@@ -9,9 +9,9 @@
 	"homepage": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
 	"docsUrl": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
 	"repository": {
-		"url": "https://github.com/DerTyp7/better-teamspeak-theme.git",
+		"url": "https://github.com/DerTyp7/better-teamspeak-theme",
 		"type": "git",
-		"directory": "Theme"
+		"directory": ""
 	},
 	"image": "default1.png",
 	"license": "MIT",
