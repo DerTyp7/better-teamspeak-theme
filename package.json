@@ -1,19 +1,15 @@
 {
-	"name": "better-teamspeak-theme",
-	"description": "Better TeamSpeak Theme",
-	"version": "1.0.1",
-	"identifier": "de.dertyp.ts",
+	"name": "BetterTeamSpeakTheme",
+	"description": "Better TeamSpeak5 Theme",
+	"version": "1.0.0",
+	"identifier": "de.dertyp7.ts",
 	"engines": {
 		"teamspeak": 1
 	},
-	"homepage": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
-	"docsUrl": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
-	"repository": {
-		"url": "https://github.com/DerTyp7/better-teamspeak-theme",
-		"type": "git",
-		"directory": ""
-	},
-	"image": "default1.png",
+	"homepage": "https://community.teamspeak.com",
+	"docsUrl": "https://community.teamspeak.com",
+	"repository": "https://github.com/DerTyp7/better-teamspeak-theme",
+	"image": "logo.png",
 	"license": "MIT",
 	"author": {
 		"name": "dertyp7",
@@ -21,13 +17,16 @@
 		"url": "https://tealfire.de",
 		"userTag": "dertyp7@myteamspeak.com"
 	},
+	"community": {
+		"server": "tealfire.de"
+	},
 	"content": {
 		"themes": [
 			{
 				"name": "BetterTeamSpeakTheme",
 				"source": "BetterTeamSpeakTheme.css",
 				"apiVersion": 1,
-				"image": "default1.png"
+				"image": "logo.png"
 			}
 		]
 	}
