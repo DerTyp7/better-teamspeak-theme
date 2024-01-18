@@ -1,0 +1,34 @@
+{
+	"name": "better-teamspeak-theme",
+	"description": "Better TeamSpeak Theme",
+	"version": "1.0.1",
+	"identifier": "de.dertyp.ts",
+	"engines": {
+		"teamspeak": 1
+	},
+	"homepage": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
+	"docsUrl": "https://community.teamspeak.com/t/skin-cleanspeak-a-the-all-new-teamspeak-5-theme/20168",
+	"repository": {
+		"url": "https://github.com/Gamer92000/CleanSpeak",
+		"type": "git",
+		"directory": "Theme"
+	},
+	"image": "default1.png",
+	"license": "MIT",
+	"author": {
+		"name": "dertyp7",
+		"email": "dertyp7@tealfire.de",
+		"url": "https://tealfire.de",
+		"userTag": "dertyp7@myteamspeak.com"
+	},
+	"content": {
+		"themes": [
+			{
+				"name": "BetterTeamSpeakTheme",
+				"source": "BetterTeamSpeakTheme.css",
+				"apiVersion": 1,
+				"image": "default1.png"
+			}
+		]
+	}
+}
