@@ -71,7 +71,9 @@
 
 .tsv-item-active-indicator {
 	border-right-color: transparent !important;
-	right: -2px !important;
+  background: none !important;
+  height: 0px !important;
+  
 	&::before {
 		content: "";
 		position: absolute;
